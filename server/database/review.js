@@ -7,6 +7,10 @@ const reviews = new Schema({
     type: Number,
     required: true,
 	},
+	user_id: {
+    type: Number,
+    required: false,
+	},
 	name: {
     type: String,
     required: true
@@ -19,25 +23,29 @@ const reviews = new Schema({
     type: String,
     required: true
   },
+  time: {
+    type: String,
+    required: false
+  },
   purchase: {
     type: Boolean,
     required: true
   },
   purchase_date: {
     type: String,
-    required: true
+    required: false
   },
   car_make: {
     type: String,
-    required: true
+    required: false
   },
   car_model: {
     type: String,
-    required: true
+    required: false
   },
   car_year: {
     type: Number,
-    required: true
+    required: false
   },
 });
 

@@ -1,0 +1,113 @@
+Command:
+curl -X GET "http://127.0.0.1:8000/djangoapp/get_cars"
+
+Output:
+{
+  "CarModels": [
+    {
+      "id": 13,
+      "CarMake": "Audi",
+      "CarModel": "A3",
+      "Type": "HATCHBACK",
+      "Year": 2020
+    },
+    {
+      "id": 98,
+      "CarMake": "Audi",
+      "CarModel": "A3",
+      "Type": "HATCHBACK",
+      "Year": 2022
+    },
+    {
+      "id": 147,
+      "CarMake": "Audi",
+      "CarModel": "A3",
+      "Type": "HATCHBACK",
+      "Year": 2022
+    },
+    {
+      "id": 3,
+      "CarMake": "Audi",
+      "CarModel": "A4",
+      "Type": "SEDAN",
+      "Year": 2021
+    },
+    {
+      "id": 83,
+      "CarMake": "Audi",
+      "CarModel": "A4",
+      "Type": "SEDAN",
+      "Year": 2021
+    },
+    {
+      "id": 132,
+      "CarMake": "Audi",
+      "CarModel": "A4",
+      "Type": "SEDAN",
+      "Year": 2021
+    },
+    {
+      "id": 33,
+      "CarMake": "Audi",
+      "CarModel": "A5",
+      "Type": "SEDAN",
+      "Year": 2020
+    },
+    {
+      "id": 63,
+      "CarMake": "Audi",
+      "CarModel": "A5",
+      "Type": "SEDAN",
+      "Year": 2021
+    },
+    {
+      "id": 107,
+      "CarMake": "Audi",
+      "CarModel": "A5",
+      "Type": "SEDAN",
+      "Year": 2020
+    },
+    {
+      "id": 58,
+      "CarMake": "Audi",
+      "CarModel": "A6",
+      "Type": "SEDAN",
+      "Year": 2022
+    },
+    {
+      "id": 38,
+      "CarMake": "Audi",
+      "CarModel": "Q3",
+      "Type": "SUV",
+      "Year": 2023
+    },
+    {
+      "id": 53,
+      "CarMake": "Audi",
+      "CarModel": "Q3",
+      "Type": "SUV",
+      "Year": 2023
+    },
+    {
+      "id": 88,
+      "CarMake": "Audi",
+      "CarModel": "Q3",
+      "Type": "SUV",
+      "Year": 2020
+    },
+    {
+      "id": 117,
+      "CarMake": "Audi",
+      "CarModel": "Q3",
+      "Type": "SUV",
+      "Year": 2022
+    },
+    {
+      "id": 137,
+      "CarMake": "Audi",
+      "CarModel": "Q3",
+      "Type": "SUV",
+      "Year": 2020
+    }
+  ]
+}

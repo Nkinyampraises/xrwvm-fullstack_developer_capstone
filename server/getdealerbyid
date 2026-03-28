@@ -1,0 +1,5 @@
+Command:
+curl -X GET "http://127.0.0.1:8000/fetchDealer/8"
+
+Output:
+{"status": 200, "dealer": [{"_id": "69c7612b2abaa3081fe74e34", "id": 8, "city": "Topeka", "state": "Kansas", "address": "288 Larry Place", "zip": "66642", "lat": "39.0429", "long": "-95.7697", "short_name": "Bytecard", "full_name": "Bytecard Car Dealership", "__v": 0}]}
